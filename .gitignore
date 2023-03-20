@@ -34,4 +34,4 @@ build/
 
 
 ## Para que no se guarde en git las application properties
-#*.properties
+*.properties
