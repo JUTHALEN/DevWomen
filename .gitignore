@@ -32,3 +32,6 @@ build/
 ### VS Code ###
 .vscode/
 *.properties
+
+## Para que no se guarde en git las application properties
+*.properties
