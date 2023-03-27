@@ -41,6 +41,7 @@ public class Bootcamper implements Serializable {
     private double salario;
     private Genero genero;
     private Formacion formacion;
+    private String foto;
 
 
     @DateTimeFormat(pattern = "yyyy-MM-dd")
