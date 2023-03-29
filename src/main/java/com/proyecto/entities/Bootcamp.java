@@ -35,7 +35,7 @@ public class Bootcamp implements Serializable {
 
     private int id;
     private String nombre;
-    private String foto;
+    private String logo;
 
     @DateTimeFormat (pattern = "yyyy-MM-dd")
     private LocalDate fechaInicio;  

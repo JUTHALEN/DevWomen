@@ -67,7 +67,7 @@ public class MainControllerBootcamp {
                 Files.write(rutaCompleta, imagenEnBytes);
 
 
-                bootcamp.setFoto(imagen.getOriginalFilename());  
+                bootcamp.setLogo(imagen.getOriginalFilename());  
             } catch (Exception e) {
                 
             }
