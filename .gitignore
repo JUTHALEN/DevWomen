@@ -35,3 +35,5 @@ build/
 
 ## Para que no se guarde en git las application properties
 *.properties
+
+src/main/resources/application.properties
