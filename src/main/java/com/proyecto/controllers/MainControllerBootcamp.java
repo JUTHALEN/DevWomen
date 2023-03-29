@@ -67,7 +67,7 @@ public class MainControllerBootcamp {
                 Files.write(rutaCompleta, imagenEnBytes);
 
 
-                bootcamp.setFoto(imagen.getOriginalFilename());  
+                bootcamp.setLogo(imagen.getOriginalFilename());  
             } catch (Exception e) {
                 
             }
@@ -84,7 +84,7 @@ public class MainControllerBootcamp {
 
         model.addAttribute("bootcamp", bootcamp); 
 
-        return "views/formularioAltaEstudiante"; // quiero que vuelva a la vista
+        return "views/formularioAltaBootcamp"; // quiero que vuelva a la vista
         
     }
     @GetMapping("/borrar/{id}")

@@ -2,13 +2,18 @@ package com.proyecto.services;
 
 import java.util.List;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
 import com.proyecto.dao.BootcampDao;
 import com.proyecto.entities.Bootcamp;
 
 import jakarta.transaction.Transactional;
 
+@Service
 public class BootcampServiceImpl implements BootcampService {
 
+    @Autowired
     private BootcampDao bootcampDao;
     @Override
     public List<Bootcamp> findAll() {
