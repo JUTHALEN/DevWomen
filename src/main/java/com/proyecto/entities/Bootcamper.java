@@ -35,24 +35,14 @@ public class Bootcamper implements Serializable {
     @GeneratedValue (strategy = GenerationType.IDENTITY)
 
     private int id;
-    private String nombre;
-    private String apellidos;
-    private String dni;
     private double salario;
-    private Genero genero;
+    
     private Formacion formacion;
     private String foto;
-
-
-    @DateTimeFormat(pattern = "yyyy-MM-dd")
-    private LocalDate fechaNacimiento;
 
     @DateTimeFormat(pattern = "yyyy-MM-dd")
     private LocalDate fechaAlta;  
 
-    public enum Genero {
-        HOMBRE, MUJER, OTRO
-    }
 
     public enum Formacion {
          GRADO_UNIVERSITARIO, GRADO_SUPERIOR, GRADO_MEDIO, BACHILLERATO;
