@@ -29,7 +29,8 @@ public class Usuario implements Serializable {
 
     private int id;
     private String nombre;
-    private String apellidos;
+    private String primerApellido;
+    private String segundoApellido;
     private Genero genero;
 
     @DateTimeFormat(pattern = "yyyy-MM-dd")
